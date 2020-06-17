@@ -7,8 +7,8 @@ The Discussion Tracker corpus can be downloaded from www.discussiontracker.cs.pi
 
 1. Install Speciteller (https://github.com/jjessyli/speciteller)
 2. Copy the get_speciteller_features function from utils.py into speciteller.py
-3. Set initial parameters in multi_task_experiment.py:
+3. Set initial parameters in multitask_experiment.py:
     - the folder containing the Discussion Tracker corpus
     - the path to Glove embeddings
     - the experiment mode (argumentation, specificity, or multitask)
-4. Run multi_task_experiment.py
+4. Run multitask_experiment.py
